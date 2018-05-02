@@ -1,6 +1,2 @@
-with_webpack/02_01/completed/node_modules
-with_webpack/02_02/completed/node_modules
-with_webpack/02_03/completed/node_modules
-with_webpack/02_04/completed/node_modules
-with_webpack/02_05/completed/node_modules
-with_webpack/02_06/completed/node_modules
+with_webpack/node_modules
+.DS_Store
