@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack && serve",
     "watch": "webpack --w"
-  },
+},
   "author": "Maarten von Kreijfelt",
   "license": "ISC",
   "devDependencies": {
