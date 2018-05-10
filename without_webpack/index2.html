@@ -11,25 +11,35 @@
 <div id="react-container"></div>
 <script type="text/babel">
 	class Checkbox extends React.Component {
+		constructor(props) {
+			super(props)
+			this.state = {
+				checked: false
+			}
 
+		}
 		render() {
-
+			var msg
+			if(this.state.checked) {
+				msg = "checked"
+			} else {
+				msg = "not checked"
+			}
 			return (
-					< div >
-					< input
-			type = "checkbox" / >
-					< / div >
+					<div>
+					<input type="checkbox" />
+					</div>
 		)
 		}
 	}
-		ReactDOM.render(
+
+	ReactDOM.render(
 	<Checkbox />,
-		document.getElementById('react-container')
+			document.getElementById('react-container')
 	)
 </script>
 </body>
 </html>
-
 
 
 
