@@ -1,2 +1,3 @@
 with_webpack/node_modules
+without_webpack/bulletin-board/node_modules
 .DS_Store
